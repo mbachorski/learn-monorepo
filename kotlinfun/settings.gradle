@@ -1,0 +1,10 @@
+include ':repository_pattern'
+include ':android-basics-kotlin-inventory-app'
+include ':roomandflowintro'
+include ':sqlbasics'
+include ':amphibiansapp'
+include ':debuggingcodelab'
+include ':getdatafrominternet'
+include ':kotlin'
+include ':app'
+rootProject.name = "KotlinFun"
