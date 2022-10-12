@@ -16,6 +16,6 @@ class BridgeUnitTest {
         val result = bridgeClient.run()
 
         // then
-        assertThat(result).isEqualTo("aa")
+        assertThat(result).isEqualTo("BImplementor1::operation()")
     }
 }

@@ -8,4 +8,4 @@ include ':getdatafrominternet'
 include ':kotlin'
 include ':app'
 rootProject.name = "KotlinFun"
-include ':designPatterns'
+include ':gofPatterns'
