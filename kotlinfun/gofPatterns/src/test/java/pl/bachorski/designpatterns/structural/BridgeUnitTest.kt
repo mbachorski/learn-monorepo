@@ -2,6 +2,9 @@ package pl.bachorski.designpatterns.structural
 
 import com.google.common.truth.Truth.assertThat
 import org.junit.Test
+import pl.bachorski.designpatterns.structural.bridge.BAbstraction1
+import pl.bachorski.designpatterns.structural.bridge.BImplementor1
+import pl.bachorski.designpatterns.structural.bridge.BridgeClient
 
 
 class BridgeUnitTest {

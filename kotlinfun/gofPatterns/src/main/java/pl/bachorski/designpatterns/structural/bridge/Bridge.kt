@@ -1,4 +1,4 @@
-package pl.bachorski.designpatterns.structural
+package pl.bachorski.designpatterns.structural.bridge
 
 interface BAbstraction {
     fun operation(): String
