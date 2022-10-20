@@ -7,7 +7,7 @@ import pl.bachorski.designpatterns.behavioral.templateMethod.TMSubClass1
 class TemplateMethodUnitTest {
 
     @Test
-    fun `Strategy should use different algorithms`() {
+    fun `Template method should call all methods in algorithm`() {
         // given
         val subClass1 = TMSubClass1()
 
