@@ -9,3 +9,4 @@ include ':kotlin'
 include ':app'
 rootProject.name = "KotlinFun"
 include ':gofPatterns'
+include ':mockk'
