@@ -9,9 +9,10 @@ interface State {
 
 data class State1(override val value: Int) : State
 
-data class Memento(val state: State)
 
 class Originator(var state: State) {
+
+    data class Memento(val state: State)
 
     fun createMemento() = Memento(state)
 

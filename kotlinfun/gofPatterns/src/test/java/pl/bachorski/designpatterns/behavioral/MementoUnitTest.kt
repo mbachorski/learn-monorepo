@@ -1,13 +1,7 @@
 package pl.bachorski.designpatterns.behavioral
 
 import com.google.common.truth.Truth.assertThat
-import io.mockk.mockk
-import io.mockk.verify
 import org.junit.Test
-import pl.bachorski.designpatterns.behavioral.command.Command
-import pl.bachorski.designpatterns.behavioral.command.Command1
-import pl.bachorski.designpatterns.behavioral.command.Invoker
-import pl.bachorski.designpatterns.behavioral.command.Receiver1
 import pl.bachorski.designpatterns.behavioral.memento.Originator
 import pl.bachorski.designpatterns.behavioral.memento.State1
 
