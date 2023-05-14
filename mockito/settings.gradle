@@ -1,0 +1,28 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenLocal()
+        mavenCentral()
+        google()
+        maven { url "https://jitpack.io" }
+        jcenter {
+            url "https://jcenter.bintray.com/"
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenLocal()
+        mavenCentral()
+        google()
+        maven { url "https://jitpack.io" }
+        jcenter {
+            url "https://jcenter.bintray.com/"
+        }
+    }
+}
+rootProject.name = "MockitoApp"
+include ':app'
