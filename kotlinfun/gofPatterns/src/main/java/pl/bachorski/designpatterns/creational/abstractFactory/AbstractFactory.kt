@@ -1,5 +1,9 @@
 package pl.bachorski.designpatterns.creational.abstractFactory
 
+/**
+ * Provide an interface for creating families of related or dependent objects
+ * without specifying their concrete classes.
+ */
 class Client(private val factory: AbstractFactory) {
     private var productA: ProductA = factory.createProductA()
     private var productB: ProductB = factory.createProductB()

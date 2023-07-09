@@ -1,5 +1,17 @@
 package pl.bachorski.designpatterns.structural.bridge
 
+/**
+ * Decouple an abstraction from its implementation so that the two can vary independently
+ */
+/**
+ * For example, a reusable application that supports different hardware environments.
+ * To make an application portable across different hardware environments, it should be possible
+ * to select the appropriate hardware-specific implementation at run-time.
+ */
+/**
+ * This is like adapter but we don't call Adaptee class instance in the end,
+ * but instead there is an interface and we call instance of this interface.
+ */
 interface BAbstraction {
     fun operation(): String
 }

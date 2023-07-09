@@ -1,5 +1,9 @@
 package pl.bachorski.designpatterns.creational.factoryMethod
 
+/**
+ * "Define an interface for creating an object, but let subclasses decide which class to
+ * instantiate. Factory Method lets a class defer instantiation to subclasses.
+ */
 abstract class FMCreator {
     private lateinit var product: FMProduct
 

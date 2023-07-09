@@ -2,6 +2,7 @@ package pl.bachorski.designpatterns.behavioral.strategy
 
 import android.util.Log
 
+// enables selecting an algorithm at runtime. Similar to dependency injection in structure.
 interface Strategy {
     fun algorithm()
 }
